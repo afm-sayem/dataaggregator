@@ -1,0 +1,31 @@
+{
+  "name": "hotelsearch",
+  "version": "0.0.1",
+  "description": "hotel search endpoint",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon --inspect app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afm-sayem/hotelsearch.git"
+  },
+  "author": "afm-sayem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afm-sayem/hotelsearch/issues"
+  },
+  "homepage": "https://github.com/afm-sayem/hotelsearch#readme",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "morgan": "^1.9.0",
+    "node-cache": "^4.1.1",
+    "object-hash": "^1.1.8",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
